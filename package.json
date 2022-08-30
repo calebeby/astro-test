@@ -1,0 +1,27 @@
+{
+  "name": "astro-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.2.0",
+    "@prefresh/vite": "^2.2.8",
+    "astro": "1.0.0-beta.56",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "preact": "^10.7.3",
+    "severed": "^0.0.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": false
+  },
+  "type": "module"
+}
