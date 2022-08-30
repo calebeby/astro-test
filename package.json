@@ -9,14 +9,13 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/preact": "^0.2.0",
-    "@prefresh/vite": "^2.2.8",
-    "astro": "1.0.0-beta.56",
+    "@astrojs/preact": "^1.0.2",
+    "astro": "1.1.2",
     "prettier": "^2.7.1"
   },
   "dependencies": {
     "polished": "^4.2.2",
-    "preact": "^10.7.3",
+    "preact": "^10.10.6",
     "severed": "^0.0.0"
   },
   "prettier": {

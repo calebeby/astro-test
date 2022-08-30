@@ -17,6 +17,10 @@ const buttonStyles = css`
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
+
+  &:hover {
+    background: red;
+  }
 `
 
 const counterStyles = css`
@@ -25,7 +29,7 @@ const counterStyles = css`
   margin: 0;
 `
 
-export default function Counter({ children }) {
+const Counter = () => {
   const [count, setCount] = useState(0)
   const add = () => setCount((i) => i + 1)
   const subtract = () => setCount((i) => i - 1)
@@ -44,3 +48,5 @@ export default function Counter({ children }) {
     </>
   )
 }
+
+export default Counter
