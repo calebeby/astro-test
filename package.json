@@ -15,6 +15,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "polished": "^4.2.2",
     "preact": "^10.7.3",
     "severed": "^0.0.0"
   },
